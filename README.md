@@ -11,18 +11,27 @@ Professional YouTube video creator যা অডিও এবং সাবটা
 
 ## 🚀 Quick Start:
 
-### সবচেয়ে সহজ উপায় (FFmpeg):
+### ⚡ ৩ ধাপে ভিডিও তৈরি করুন:
 
 ```bash
-# 1. Install FFmpeg (if needed)
-sudo apt-get install ffmpeg  # Ubuntu/Debian
-brew install ffmpeg          # macOS
+# 1. Repository clone করুন
+git clone https://github.com/bdgolpo2023/voice-and-script.git
+cd voice-and-script
 
-# 2. Create video
+# 2. FFmpeg install করুন (প্রথমবার শুধু)
+# Ubuntu/Debian:
+sudo apt-get install ffmpeg
+# macOS:
+brew install ffmpeg
+# Windows: https://www.gyan.dev/ffmpeg/builds/
+
+# 3. ভিডিও তৈরি করুন
 ./create_video.sh
 ```
 
-**Output**: `youtube_ocean_video.mp4` (Full HD, ready for YouTube)
+**Output**: `youtube_ocean_video.mp4` (Full HD, ready for YouTube!)
+
+📖 **বিস্তারিত গাইড**: [QUICK_START.md](QUICK_START.md) (Windows/macOS/Linux সব platform)
 
 ## 📖 Full Documentation:
 
